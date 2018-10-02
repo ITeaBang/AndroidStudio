@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="player">
+        <item>김기태</item>
+        <item>이종범</item>
+        <item>최향남</item>
+        <item>권혁</item>
+        <item>김주찬</item>
+    </string-array>
+</resources>

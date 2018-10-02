@@ -1,1 +1,1 @@
-include ':app', ':basicview', ':outputview', ':buttonview'
+include ':app', ':basicview', ':outputview', ':buttonview', ':dialogview'
