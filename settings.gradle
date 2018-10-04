@@ -1,1 +1,1 @@
-include ':app', ':basicview', ':outputview', ':buttonview', ':dialogview'
+include ':app', ':basicview', ':outputview', ':buttonview', ':dialogview', ':EventView', ':eventhandler', ':resourceactivity'
