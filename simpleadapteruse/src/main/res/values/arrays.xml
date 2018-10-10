@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="team">
+        <item>KIA</item>
+        <item>HANHWA</item>
+        <item>LG</item>
+        <item>DUSAN</item>
+        <item>SAMSUNG</item>
+        <item>SK</item>
+        <item>KT</item>
+        <item>NEXEN</item>
+        <item>NC</item>
+        <item>LOTTE</item>
+    </string-array>
+</resources>
