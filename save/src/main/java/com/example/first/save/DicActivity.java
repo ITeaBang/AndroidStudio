@@ -44,7 +44,7 @@ public class DicActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dic);
 
         dbHelper = new WordDBHelper(this);
-        result = (TextView)findViewById(R.id.result);
+        result = findViewById(R.id.result);
         // 갱신 버튼을 눌렀을 때 - eng 값이 orange인 데이터의 kor 값을 귤로 변경하기
         findViewById(R.id.update).setOnClickListener(
                 new View.OnClickListener(){

@@ -15,14 +15,14 @@ import java.io.InputStreamReader;
 public class FileUse extends AppCompatActivity {
     public void click(View v){
         final EditText edit =
-                (EditText)findViewById(R.id.edit);
+                findViewById(R.id.edit);
         switch(v.getId()){
             case R.id.save:
                 // 입력한 내용 가져오기
                 String msg = edit.getText().toString();
                 // 기록하기 위한 파일 스트림 만들기 - close를 하지 않아도 자동으로 닫히도록 try()안에서 생성
                 try(FileOutputStream fos = openFileOutput(
-                        "sample.txt", Context.MODE_PRIVATE);)
+                        "sample.txt", Context.MODE_PRIVATE))
                 {
                     fos.write(msg.getBytes());
                     fos.flush();
@@ -84,7 +84,7 @@ public class FileUse extends AppCompatActivity {
                                         R.raw.tigers);
                         FileOutputStream fos =
                                 openFileOutput("tigers.png",
-                                        Context.MODE_PRIVATE);
+                                        Context.MODE_PRIVATE)
 
                 ){
 
